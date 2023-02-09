@@ -1,0 +1,212 @@
+body{
+    background-color: yellow;
+}
+h2{
+    text-align: center;
+}
+.d1{
+    position:absolute;
+    left: 30%;
+    }
+
+.d2container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.d2item{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    background-color:aqua;
+   align-items: flex-start;
+   
+}
+.d3item{
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    background-color: darkgray;
+}
+.d4item{
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    background-color: aqua;
+}
+.d5item{
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    background-color: aqua;
+}
+.d6item{
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    background-color: brown;
+}
+.d7item{
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    background-color: chartreuse;
+}
+a{
+    color:darkred;
+}
+
+/*animation logic started*/
+
+.d2item{
+    animation-name: om2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes om2{
+    0%{
+        transform: skew(10deg);
+    }
+   100%{
+    transform: skew(30deg);
+   }
+}
+.d3item{
+    animation-name: om3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes om3{
+    0%{
+        transform: skewY(0deg);
+    }
+   100%{
+    transform: skewY(30deg);
+   }
+}
+.d4item{
+    animation-name: om4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   }
+@keyframes om4{
+   from{
+        transform: rotate(0deg);
+    }
+   to{
+    transform: rotate(360deg);
+   }
+}
+
+.d5item{
+    animation-name: om5;
+    animation-duration: 5s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes om5{
+    0%{
+        transform:scaleY(0.5);
+    }
+   100%{
+    transform: scaleY(1);
+   }
+}
+.d6item{
+    animation-name: om6;
+    animation-duration: 5s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes om6{
+    0%{
+        transform: scaleX(.5);
+    }
+   100%{
+    transform: scaleX(1);
+   }
+}
+.d7item{
+    animation-name: om7;
+    animation-duration: 5s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes om7{
+    0%{
+        transform: rotate(360deg);
+    }
+   100%{
+    transform: rotate(0deg);
+   }
+}
+/*index1.html css properties*/
+.d2{
+    position:absolute;
+    left: 40%;
+    }
+.c0container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: column;
+
+}
+.c0item{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    background-color:chartreuse;
+}
+.c1item{
+    transition: width 2s;
+}
+.c1item:hover{
+    width: 300px;
+}
+.c2item{
+    transition: width 5s;
+    transition: height 5s;
+}
+.c2item:hover{
+    width: 300px;
+    height:350px ;
+}
+.c3item{
+    transition: width 2s;
+   transition-timing-function: linear;
+}
+.c3item:hover{
+    width: 300px;
+}
+.c4item{
+    transition: width 2s;
+    transition-timing-function: ease;
+}
+.c4item:hover{
+    width: 300px;
+}
+.c5item{
+    transition: width 2s;
+    transition-timing-function: ease-in;
+}
+.c5item:hover{
+    width: 300px;
+}
+.c6item{
+    transition: width 2s;
+}
+.c6item:hover{
+    width: 300px;
+    transition-timing-function: ease-in-out;
+}
+.c7item{
+    transition: width 2s;
+    transition-timing-function: ease-out;
+}
+.c7item:hover{
+    width: 300px;
+}
