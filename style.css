@@ -212,13 +212,10 @@ a{
 }
 /*now index2 styling*/
 .b1{
-    background-color:white;
+    background-color:lightskyblue;
 }
 .img1{
-    border-left-color:10px solid orange ;
-    border-right-color:10px solid green;
     width: 100%;
-    z-index: 0;
     position: absolute;
     z-index: 0;
 }
