@@ -241,7 +241,7 @@ a{
     top: 435px;
     z-index: 1;
     height: 220px;
-    width:100%;
+    width:200%;
    }
    .img5{
     position:absolute;
@@ -270,6 +270,16 @@ a{
     width: 55px;
    
     }
+    .img8{
+        position:absolute;
+        top: 400px;
+        left: 610px;
+        z-index: 1;
+        height:75px;
+        width: 75px;
+       
+        }
+    
 
 h1{
     text-align: center;
@@ -288,4 +298,53 @@ h1{
 .p3{
     display: inline;
     background-color: green;
+}
+/*animation on index2.html */
+.img6{
+    animation-name:wheel1;
+    animation-duration: 1ms;
+    animation-iteration-count: infinite;
+   }
+@keyframes wheel1{
+   from{
+        transform: rotate(0deg);
+    }
+   to{
+    transform: rotate(360deg);
+   }
+}
+.img7{
+    animation-name:wheel2;
+    animation-duration: 1ms;
+    animation-iteration-count: infinite;
+   }
+@keyframes wheel2{
+   from{
+        transform: rotate(0deg);
+    }
+   to{
+    transform: rotate(360deg);
+   }
+}
+.img4{
+    animation-name:road;
+    animation-iteration-count: infinite;
+    background-repeat: repeat-x;
+    animation: road 1s linear infinite;
+   }
+@keyframes road{
+   100%{
+        transform:translateX(-100px);
+    }
+}
+.img2{
+    animation-name:city;
+    animation-iteration-count: infinite;
+    background-repeat: repeat-x;
+    animation: city 1s linear infinite;
+   }
+@keyframes city{
+   100%{
+        transform:translateX(-30px);
+    }
 }
