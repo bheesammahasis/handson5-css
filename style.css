@@ -238,7 +238,7 @@ a{
     top: 435px;
     z-index: 1;
     height: 220px;
-    width:200%;
+    width:110%;
    }
    .img5{
     position:absolute;
@@ -331,7 +331,7 @@ h1{
    }
 @keyframes road{
    100%{
-        transform:translateX(-100px);
+        transform:translateX(-70px);
     }
 }
 .img2{
@@ -341,6 +341,17 @@ h1{
     animation: city 1s linear infinite;
    }
 @keyframes city{
+   100%{
+        transform:translateX(-30px);
+    }
+}
+.img3{
+    animation-name:sun;
+    animation-iteration-count: infinite;
+    background-repeat: repeat-x;
+    animation: city 1s linear infinite;
+   }
+@keyframes sun{
    100%{
         transform:translateX(-30px);
     }
