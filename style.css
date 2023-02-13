@@ -214,11 +214,14 @@ a{
 /*now index2 styling*/
 .b1{
     background-color:lightskyblue;
+
 }
 .img1{
     width: 100%;
     position: absolute;
     z-index: 0;
+    border-left:5px solid orange;
+    border-right: 5px solid green;
 }
 .img2{
     position:absolute;
